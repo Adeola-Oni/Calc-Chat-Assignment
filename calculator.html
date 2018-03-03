@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="calculator.css" />
+    <script src="calculator.js"></script>
+</head>
+<body class="row">
+    <div class="col-3"></div>
+
+    <div class="col-6 overall">
+        <div class="col-8 ">
+            <br><br>
+            <div class="numbers">
+                <input  id="display">
+                <br><br><br><br>
+                <div>
+                    <button onclick="inputnumber(7)" value="7">7</button>
+                    <button onclick="inputnumber(8)" value="8">8</button>
+                    <button onclick="inputnumber(9)" value="9" id="butt">9</button>
+                </div>
+                <br>
+                <div>
+                    <button onclick="inputnumber(4)" value="4">4</button>
+                    <button onclick="inputnumber(5)" value="5">5</button>
+                    <button onclick="inputnumber(6)" value="6">6</button>
+                </div>
+                <br>
+                <div>
+                    <button onclick="inputnumber(1)" value="1">1</button>
+                    <button onclick="inputnumber(2)" value="2">2</button>
+                    <button onclick="inputnumber(3)" value="3">3</button>
+                </div>
+                <br>
+                <div>
+                    <button onclick="dot()" value=".">.</button>
+                    <button onclick="inputnumber(0)" value="0">0</button>
+                    <button onclick="equalto()" value="=">=</button>
+                </div>
+            </div>
+        </div>  
+
+        <div class="col-2 funcs"> 
+                <button onclick="del()">DEL</button><br><br>
+                <button onclick="division()">/</button><br><br>
+                <button onclick="modulo()">%</button><br><br>
+                <button onclick="multiplication()">*</button><br><br>
+                <button onclick="subtraction()">-</button><br><br>
+                <button onclick="addition()">+</button><br><br>
+                <button onclick="log()">log</button> <br><br>
+                <button onclick="back()">BACK</button> <br><br>
+        </div>
+
+        <div class="col-2 funcs">
+                <button onclick="cos()">COS</button> <br><br>           
+                <button onclick=tan()>TAN</button> <br><br>
+                <button onclick="sin()">SIN</button><br><br>                                             
+                <button onclick="exp()">e</button>  <br><br>          
+                <button onclick="pow()">^</button><br><br>                 
+                <button onclick="bracket1()">(</button><br><br>
+                <button onclick="bracket2()">)</button><br><br>
+                <button onclick="sqrt()">SQRT</button> <br><br>
+        </div>
+        
+    </div>
+     
+
+    <div class="col-3"></div>
+    
+</body>
+</html>
